@@ -1,4 +1,4 @@
-import { BrowserRouter as Router } from "react-router-dom/cjs/react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import ComponentOne from "../../components/ComponentOne/ComponentOne";
 import ComponentTwo from "../../components/ComponentTwo/ComponentTwo";
 
