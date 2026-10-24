@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.compUl {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  color: #ffffff;
+  &:visited {
+    color: #000000;
+    color: #ffffff;
+  }
+}
+
+.active {
+  border-bottom: 1px solid greenyellow;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

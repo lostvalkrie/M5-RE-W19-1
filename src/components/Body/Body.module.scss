@@ -1,0 +1,50 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background: #242323;
+  padding-bottom: 5px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  color: #ffffff;
+  &:visited {
+    color: #ffffff;
+  }
+}
+
+.active {
+  border-bottom: 1px solid greenyellow;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  background-color: #121214;
+  color: #e4e4e7;
+}
+
+.footer {
+  background: #242323;
+  width: 100%;
+  text-align: center;
+}
+
+.footerText {
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+}
